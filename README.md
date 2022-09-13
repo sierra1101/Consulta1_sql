@@ -7,10 +7,10 @@
 
 - `SELECT * FROM usuario`
 
-![tabla usuario](img/tabla_usuario.png "Tabla usuario")
+![Consulta1](img/tabla_usuario.png "Tabla usuario")
 
 2. Seleccionar o visualizar solamente la identificación del usuario.
 
 - `SELECT Identificación FROM usuario`
 
-![tabla usuario](img/tabla_identificacion.png "Tabla Identificacion")
+![Consulta2](img/tabla_identificacion.png "Tabla Identificacion")
