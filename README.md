@@ -49,3 +49,9 @@ O se puede utilizar el operador OR.
 `SELECT * FROM usuario WHERE nombre LIKE '%a%'`
 
 ![Consulta7](img/tabla_nombreconA.png "Tabla nombreConA")
+
+### 8. Si se desea obtener los registros donde la cuarta letra del nombre sea una 'a'.
+
+`SELECT * FROM usuario WHERE nombre LIKE '___a%'`
+
+![Consulta8](img/tabla_nom_4a.png "Tabla nombreConA en cuarto")
