@@ -18,4 +18,5 @@
 3. Si se desea obtener los registros cuya identificacion sean mayores o iguales a 150, se debe utilizar la consulta WHERE que especifica las condiciones que deben reunir los registros que se van a seleccionar-
 
 - `SELECT * FROM usuario WHERE identificacion`
-![Consulta3](img/tabla_mayorque.png.png "Tabla Identificacion")
+
+![Consulta3](img/tabla_mayorque.png "Tabla Mayor o igual que")
