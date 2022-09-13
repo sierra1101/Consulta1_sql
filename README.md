@@ -24,9 +24,16 @@
 4. Si se desea obtener los registros cuyo sus apellidos sean Vanegas o Cetina, se debe utilizar el operador IN que especifica los registros 
 - `SELECT apellidos FROM usuario WHERE apellidos IN ('Vanegas', 'Cetina')`
 
-![Consulta3](img/tabla_apellidos1.png "Tabla Apellidos1")
+![Consulta4](img/tabla_apellidos1.png "Tabla Apellidos1")
+
 ### O se puede utilizar el operador OR.
 
 - `SELECT apellidos FROM usuario WHERE apellidos='Vanegas' OR apellidos='Cetina'`
 
-![Consulta3](img/tabla_apellidos2.png "Tabla Apellidos2")
+![Consulta4.1](img/tabla_apellidos2.png "Tabla Apellidos2")
+
+5. Si se desea obtener los registros cuya identificacion sea menor de '110' y la ciudad sea 'Cali', se debe utilizar el operador AND.
+
+- `SELECT * FROM usuario WHERE identificacion < 110 AND ciudad_nac='Cali'`
+
+![Consulta5](img/tabla_iden-ciudad.png "Tabla Apellidos2")
