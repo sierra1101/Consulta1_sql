@@ -48,4 +48,4 @@ O se puede utilizar el operador OR.
 
 `SELECT * FROM usuario WHERE nombre LIKE '%a%'`
 
-![Consulta7](img/tabla_nombreconA.png.png "Tabla nombreConA")
+![Consulta7](img/tabla_nombreconA.png "Tabla nombreConA")
