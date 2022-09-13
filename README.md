@@ -55,3 +55,9 @@ O se puede utilizar el operador OR.
 `SELECT * FROM usuario WHERE nombre LIKE '___a%'`
 
 ![Consulta8](img/tabla_nom_4a.png "Tabla nombreConA en cuarto")
+
+### 9. Si se desea obtener los registros cuya identificacion este entre el intervalo 110 y 150, se debe utilizar la clausula BETWEEN, que sirve para especificar un intervalo de valores.
+
+`SELECT * FROM usuario WHERE identificacion BETWEEN '110' AND '150'`
+
+![Consulta9](img/tabla_seleccionar_entre.png "Tabla seleccionar entre x variables")
