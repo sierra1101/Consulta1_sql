@@ -14,11 +14,13 @@
 3. si se desea obtener los registros cuya identificacion sean mayoreso iguales a 150, se debe utulizar la clausula WHERE que espicifica las condiciones que deben reunir los registros que se van a seleccionar.
 
 `SELECT` * FROM usuario WHERE Identificación>=`150`
+
 ![consulta 3](/images/consulta3.png)
 
 
 4. si se desea obtener los registros cuyos los apellidos sean Vanegas o Cetina, se debe utilizar el operador IN que especifica los registros que se quieren visualizar de unatabla.
 `SELECT apellidos FROM usuario WHERE apellidos IN ('Vanegas','Cetina')`
+
 ![consulta 4](/images/consulta4.png)
 
 O se puede utilizar el operador OR.
