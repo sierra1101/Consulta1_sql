@@ -76,4 +76,9 @@ permite obtener datos de dos o mas tablas. cuando se realiza la concatenación d
 
 ![consulta12](/images/consulta12.png "consulta12")
 
-13.
+13.Para visualizar todos campos de las tablas usuarios y pedidos donde identiicacion
+sea mayor aue 100. se deje realizar la siguiente instrucción:
+
+`SELECT usuario.*, pedidos.* FROM usuario INNER JOIN pedidos ON usuario.Identificación = pedidos.identificacion WHERE usuario.Identificación >100;`
+
+![consulta13](/images/consulta13.png "consulta13")
